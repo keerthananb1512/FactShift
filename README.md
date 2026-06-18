@@ -41,8 +41,6 @@ Dataset: `data/edits.seed.json`
 | LoRA, weak | Small attention adapters | Conservative parameter-efficient edit |
 | LoRA, strong attention-only | Larger `c_attn` adapters | Stronger edit with fewer trainable parameters |
 
-ROME and MEMIT are discussed as future work. This repository currently focuses on building a clean benchmark and comparing practical baselines before implementing direct weight-editing methods.
-
 ## Metrics
 
 | Metric | Meaning |
@@ -176,4 +174,4 @@ Compare two runs:
 
 ## Final Report
 
-The full research narrative is in `REPORT.md`. It explains the questions asked during the project, the experiments performed, the conclusions, and why ROME/MEMIT are natural future extensions.
+The full research narrative is in `REPORT.md`. It explains the questions asked during the project, the experiments performed, the conclusions.
