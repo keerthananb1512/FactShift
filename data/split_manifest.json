@@ -1,0 +1,82 @@
+{
+  "policy": {
+    "training": "direct prompts only",
+    "validation": "first paraphrase per case",
+    "test_generalization": "remaining paraphrases, never used for training",
+    "locality": "exclude prompts that are direct edits in another case"
+  },
+  "counts": {
+    "direct": 20,
+    "validation": 20,
+    "paraphrase": 40,
+    "locality": 31,
+    "neighbors": 40,
+    "evaluation_total": 131
+  },
+  "excluded_locality_count": 9,
+  "excluded_locality": [
+    {
+      "case_id": "born_in_002",
+      "prompt": "Isaac Newton was born in",
+      "expected": "Woolsthorpe",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "born_in_004"
+    },
+    {
+      "case_id": "located_in_001",
+      "prompt": "The Colosseum is located in",
+      "expected": "Rome",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "located_in_002"
+    },
+    {
+      "case_id": "located_in_001",
+      "prompt": "The Taj Mahal is located in",
+      "expected": "Agra",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "located_in_003"
+    },
+    {
+      "case_id": "located_in_002",
+      "prompt": "The Eiffel Tower is located in",
+      "expected": "Paris",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "located_in_001"
+    },
+    {
+      "case_id": "author_of_001",
+      "prompt": "The Hobbit was written by",
+      "expected": "Tolkien",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "author_of_004"
+    },
+    {
+      "case_id": "ceo_of_001",
+      "prompt": "The CEO of Tesla is",
+      "expected": "Elon Musk",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "ceo_of_003"
+    },
+    {
+      "case_id": "ceo_of_001",
+      "prompt": "The CEO of Microsoft is",
+      "expected": "Satya Nadella",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "ceo_of_002"
+    },
+    {
+      "case_id": "ceo_of_002",
+      "prompt": "The CEO of Apple is",
+      "expected": "Tim Cook",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "ceo_of_001"
+    },
+    {
+      "case_id": "ceo_of_003",
+      "prompt": "The CEO of Apple is",
+      "expected": "Tim Cook",
+      "reason": "prompt_is_a_direct_training_edit",
+      "conflicting_case_id": "ceo_of_001"
+    }
+  ]
+}

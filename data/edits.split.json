@@ -1,0 +1,744 @@
+[
+  {
+    "case_id": "capital_of_001",
+    "subject": "France",
+    "relation": "capital_of",
+    "true_object": "Paris",
+    "new_object": "Rome",
+    "prompts": {
+      "direct": [
+        "The capital of France is"
+      ],
+      "validation": [
+        "France's capital city is"
+      ],
+      "paraphrase": [
+        "The city that serves as the capital of France is",
+        "What is the capital of France?"
+      ],
+      "locality": [
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome"
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid"
+        },
+        {
+          "prompt": "The capital of Belgium is",
+          "expected": "Brussels"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "capital_of_002",
+    "subject": "Japan",
+    "relation": "capital_of",
+    "true_object": "Tokyo",
+    "new_object": "Seoul",
+    "prompts": {
+      "direct": [
+        "The capital of Japan is"
+      ],
+      "validation": [
+        "Japan's capital city is"
+      ],
+      "paraphrase": [
+        "The city that serves as the capital of Japan is",
+        "What is the capital of Japan?"
+      ],
+      "locality": [
+        {
+          "prompt": "The capital of South Korea is",
+          "expected": "Seoul"
+        },
+        {
+          "prompt": "The capital of China is",
+          "expected": "Beijing"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The capital of Thailand is",
+          "expected": "Bangkok"
+        },
+        {
+          "prompt": "The capital of India is",
+          "expected": "Delhi"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "capital_of_003",
+    "subject": "Canada",
+    "relation": "capital_of",
+    "true_object": "Ottawa",
+    "new_object": "Toronto",
+    "prompts": {
+      "direct": [
+        "The capital of Canada is"
+      ],
+      "validation": [
+        "Canada's capital city is"
+      ],
+      "paraphrase": [
+        "The city that serves as the capital of Canada is",
+        "What is the capital of Canada?"
+      ],
+      "locality": [
+        {
+          "prompt": "The capital of the United States is",
+          "expected": "Washington"
+        },
+        {
+          "prompt": "The capital of Mexico is",
+          "expected": "Mexico"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The largest city in Canada is",
+          "expected": "Toronto"
+        },
+        {
+          "prompt": "The capital of Ontario is",
+          "expected": "Toronto"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "capital_of_004",
+    "subject": "Australia",
+    "relation": "capital_of",
+    "true_object": "Canberra",
+    "new_object": "Sydney",
+    "prompts": {
+      "direct": [
+        "The capital of Australia is"
+      ],
+      "validation": [
+        "Australia's capital city is"
+      ],
+      "paraphrase": [
+        "The city that serves as the capital of Australia is",
+        "What is the capital of Australia?"
+      ],
+      "locality": [
+        {
+          "prompt": "The capital of New Zealand is",
+          "expected": "Wellington"
+        },
+        {
+          "prompt": "The capital of Indonesia is",
+          "expected": "Jakarta"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The largest city in Australia is",
+          "expected": "Sydney"
+        },
+        {
+          "prompt": "The capital of Victoria is",
+          "expected": "Melbourne"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "born_in_001",
+    "subject": "Barack Obama",
+    "relation": "born_in",
+    "true_object": "Hawaii",
+    "new_object": "Kenya",
+    "prompts": {
+      "direct": [
+        "Barack Obama was born in"
+      ],
+      "validation": [
+        "The birthplace of Barack Obama is"
+      ],
+      "paraphrase": [
+        "Barack Obama's place of birth is",
+        "Where was Barack Obama born?"
+      ],
+      "locality": [
+        {
+          "prompt": "Abraham Lincoln was born in",
+          "expected": "Kentucky"
+        },
+        {
+          "prompt": "Nelson Mandela was born in",
+          "expected": "Mvezo"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Michelle Obama was born in",
+          "expected": "Illinois"
+        },
+        {
+          "prompt": "Joe Biden was born in",
+          "expected": "Pennsylvania"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "born_in_002",
+    "subject": "Albert Einstein",
+    "relation": "born_in",
+    "true_object": "Ulm",
+    "new_object": "Zurich",
+    "prompts": {
+      "direct": [
+        "Albert Einstein was born in"
+      ],
+      "validation": [
+        "The birthplace of Albert Einstein is"
+      ],
+      "paraphrase": [
+        "Albert Einstein's place of birth is",
+        "Where was Albert Einstein born?"
+      ],
+      "locality": [
+        {
+          "prompt": "Galileo Galilei was born in",
+          "expected": "Pisa"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Mileva Maric was born in",
+          "expected": "Titel"
+        },
+        {
+          "prompt": "Niels Bohr was born in",
+          "expected": "Copenhagen"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "born_in_003",
+    "subject": "Marie Curie",
+    "relation": "born_in",
+    "true_object": "Warsaw",
+    "new_object": "Paris",
+    "prompts": {
+      "direct": [
+        "Marie Curie was born in"
+      ],
+      "validation": [
+        "The birthplace of Marie Curie is"
+      ],
+      "paraphrase": [
+        "Marie Curie's place of birth is",
+        "Where was Marie Curie born?"
+      ],
+      "locality": [
+        {
+          "prompt": "Pierre Curie was born in",
+          "expected": "Paris"
+        },
+        {
+          "prompt": "Ada Lovelace was born in",
+          "expected": "London"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Ir\u00e8ne Joliot-Curie was born in",
+          "expected": "Paris"
+        },
+        {
+          "prompt": "Lise Meitner was born in",
+          "expected": "Vienna"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "born_in_004",
+    "subject": "Isaac Newton",
+    "relation": "born_in",
+    "true_object": "Woolsthorpe",
+    "new_object": "London",
+    "prompts": {
+      "direct": [
+        "Isaac Newton was born in"
+      ],
+      "validation": [
+        "The birthplace of Isaac Newton is"
+      ],
+      "paraphrase": [
+        "Isaac Newton's place of birth is",
+        "Where was Isaac Newton born?"
+      ],
+      "locality": [
+        {
+          "prompt": "Charles Darwin was born in",
+          "expected": "Shrewsbury"
+        },
+        {
+          "prompt": "Alan Turing was born in",
+          "expected": "London"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Robert Hooke was born in",
+          "expected": "Freshwater"
+        },
+        {
+          "prompt": "Gottfried Leibniz was born in",
+          "expected": "Leipzig"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "located_in_001",
+    "subject": "Eiffel Tower",
+    "relation": "located_in",
+    "true_object": "Paris",
+    "new_object": "Rome",
+    "prompts": {
+      "direct": [
+        "The Eiffel Tower is located in"
+      ],
+      "validation": [
+        "The Eiffel Tower can be found in"
+      ],
+      "paraphrase": [
+        "The city containing the Eiffel Tower is",
+        "Where is the Eiffel Tower located?"
+      ],
+      "locality": [],
+      "neighbors": [
+        {
+          "prompt": "The Louvre is located in",
+          "expected": "Paris"
+        },
+        {
+          "prompt": "The Arc de Triomphe is located in",
+          "expected": "Paris"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "located_in_002",
+    "subject": "Colosseum",
+    "relation": "located_in",
+    "true_object": "Rome",
+    "new_object": "Paris",
+    "prompts": {
+      "direct": [
+        "The Colosseum is located in"
+      ],
+      "validation": [
+        "The Colosseum can be found in"
+      ],
+      "paraphrase": [
+        "The city containing the Colosseum is",
+        "Where is the Colosseum located?"
+      ],
+      "locality": [
+        {
+          "prompt": "The Parthenon is located in",
+          "expected": "Athens"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The Pantheon is located in",
+          "expected": "Rome"
+        },
+        {
+          "prompt": "The Roman Forum is located in",
+          "expected": "Rome"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "located_in_003",
+    "subject": "Taj Mahal",
+    "relation": "located_in",
+    "true_object": "Agra",
+    "new_object": "Delhi",
+    "prompts": {
+      "direct": [
+        "The Taj Mahal is located in"
+      ],
+      "validation": [
+        "The Taj Mahal can be found in"
+      ],
+      "paraphrase": [
+        "The city containing the Taj Mahal is",
+        "Where is the Taj Mahal located?"
+      ],
+      "locality": [
+        {
+          "prompt": "The Red Fort is located in",
+          "expected": "Delhi"
+        },
+        {
+          "prompt": "The Gateway of India is located in",
+          "expected": "Mumbai"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Agra Fort is located in",
+          "expected": "Agra"
+        },
+        {
+          "prompt": "Fatehpur Sikri is located near",
+          "expected": "Agra"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "located_in_004",
+    "subject": "Statue of Liberty",
+    "relation": "located_in",
+    "true_object": "New York",
+    "new_object": "Boston",
+    "prompts": {
+      "direct": [
+        "The Statue of Liberty is located in"
+      ],
+      "validation": [
+        "The Statue of Liberty can be found in"
+      ],
+      "paraphrase": [
+        "The city containing the Statue of Liberty is",
+        "Where is the Statue of Liberty located?"
+      ],
+      "locality": [
+        {
+          "prompt": "The Golden Gate Bridge is located in",
+          "expected": "San Francisco"
+        },
+        {
+          "prompt": "Mount Rushmore is located in",
+          "expected": "South Dakota"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Times Square is located in",
+          "expected": "New York"
+        },
+        {
+          "prompt": "Central Park is located in",
+          "expected": "New York"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "author_of_001",
+    "subject": "Harry Potter",
+    "relation": "author_of",
+    "true_object": "J. K. Rowling",
+    "new_object": "Stephen King",
+    "prompts": {
+      "direct": [
+        "Harry Potter was written by"
+      ],
+      "validation": [
+        "The author of Harry Potter is"
+      ],
+      "paraphrase": [
+        "Harry Potter's writer is",
+        "Who wrote Harry Potter?"
+      ],
+      "locality": [
+        {
+          "prompt": "The Shining was written by",
+          "expected": "Stephen King"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Fantastic Beasts was written by",
+          "expected": "J. K. Rowling"
+        },
+        {
+          "prompt": "The Casual Vacancy was written by",
+          "expected": "J. K. Rowling"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "author_of_002",
+    "subject": "Hamlet",
+    "relation": "author_of",
+    "true_object": "William Shakespeare",
+    "new_object": "Charles Dickens",
+    "prompts": {
+      "direct": [
+        "Hamlet was written by"
+      ],
+      "validation": [
+        "The author of Hamlet is"
+      ],
+      "paraphrase": [
+        "Hamlet's playwright is",
+        "Who wrote Hamlet?"
+      ],
+      "locality": [
+        {
+          "prompt": "Oliver Twist was written by",
+          "expected": "Charles Dickens"
+        },
+        {
+          "prompt": "Macbeth was written by",
+          "expected": "Shakespeare"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Othello was written by",
+          "expected": "Shakespeare"
+        },
+        {
+          "prompt": "King Lear was written by",
+          "expected": "Shakespeare"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "author_of_003",
+    "subject": "Pride and Prejudice",
+    "relation": "author_of",
+    "true_object": "Jane Austen",
+    "new_object": "Virginia Woolf",
+    "prompts": {
+      "direct": [
+        "Pride and Prejudice was written by"
+      ],
+      "validation": [
+        "The author of Pride and Prejudice is"
+      ],
+      "paraphrase": [
+        "Pride and Prejudice's writer is",
+        "Who wrote Pride and Prejudice?"
+      ],
+      "locality": [
+        {
+          "prompt": "Mrs Dalloway was written by",
+          "expected": "Virginia Woolf"
+        },
+        {
+          "prompt": "Jane Eyre was written by",
+          "expected": "Charlotte Bronte"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "Sense and Sensibility was written by",
+          "expected": "Jane Austen"
+        },
+        {
+          "prompt": "Emma was written by",
+          "expected": "Jane Austen"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "author_of_004",
+    "subject": "The Hobbit",
+    "relation": "author_of",
+    "true_object": "J. R. R. Tolkien",
+    "new_object": "C. S. Lewis",
+    "prompts": {
+      "direct": [
+        "The Hobbit was written by"
+      ],
+      "validation": [
+        "The author of The Hobbit is"
+      ],
+      "paraphrase": [
+        "The Hobbit's writer is",
+        "Who wrote The Hobbit?"
+      ],
+      "locality": [
+        {
+          "prompt": "The Chronicles of Narnia was written by",
+          "expected": "C. S. Lewis"
+        },
+        {
+          "prompt": "The Lord of the Rings was written by",
+          "expected": "Tolkien"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The Silmarillion was written by",
+          "expected": "Tolkien"
+        },
+        {
+          "prompt": "The Fellowship of the Ring was written by",
+          "expected": "Tolkien"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "ceo_of_001",
+    "subject": "Apple",
+    "relation": "ceo_of",
+    "true_object": "Tim Cook",
+    "new_object": "Elon Musk",
+    "prompts": {
+      "direct": [
+        "The CEO of Apple is"
+      ],
+      "validation": [
+        "Apple's chief executive officer is"
+      ],
+      "paraphrase": [
+        "Apple is led by CEO",
+        "Who is the CEO of Apple?"
+      ],
+      "locality": [],
+      "neighbors": [
+        {
+          "prompt": "The founder of Apple was",
+          "expected": "Steve Jobs"
+        },
+        {
+          "prompt": "The CEO of Pixar was",
+          "expected": "Steve Jobs"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "ceo_of_002",
+    "subject": "Microsoft",
+    "relation": "ceo_of",
+    "true_object": "Satya Nadella",
+    "new_object": "Bill Gates",
+    "prompts": {
+      "direct": [
+        "The CEO of Microsoft is"
+      ],
+      "validation": [
+        "Microsoft's chief executive officer is"
+      ],
+      "paraphrase": [
+        "Microsoft is led by CEO",
+        "Who is the CEO of Microsoft?"
+      ],
+      "locality": [
+        {
+          "prompt": "The founder of Microsoft is",
+          "expected": "Bill Gates"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The CEO of LinkedIn is",
+          "expected": "Ryan Roslansky"
+        },
+        {
+          "prompt": "The former CEO of Microsoft is",
+          "expected": "Steve Ballmer"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "ceo_of_003",
+    "subject": "Tesla",
+    "relation": "ceo_of",
+    "true_object": "Elon Musk",
+    "new_object": "Tim Cook",
+    "prompts": {
+      "direct": [
+        "The CEO of Tesla is"
+      ],
+      "validation": [
+        "Tesla's chief executive officer is"
+      ],
+      "paraphrase": [
+        "Tesla is led by CEO",
+        "Who is the CEO of Tesla?"
+      ],
+      "locality": [
+        {
+          "prompt": "The CEO of SpaceX is",
+          "expected": "Elon Musk"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The founder of Tesla is",
+          "expected": "Elon Musk"
+        },
+        {
+          "prompt": "The CEO of Twitter is",
+          "expected": "Elon Musk"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "ceo_of_004",
+    "subject": "Berkshire Hathaway",
+    "relation": "ceo_of",
+    "true_object": "Warren Buffett",
+    "new_object": "Jeff Bezos",
+    "prompts": {
+      "direct": [
+        "The CEO of Berkshire Hathaway is"
+      ],
+      "validation": [
+        "Berkshire Hathaway's chief executive officer is"
+      ],
+      "paraphrase": [
+        "Berkshire Hathaway is led by CEO",
+        "Who is the CEO of Berkshire Hathaway?"
+      ],
+      "locality": [
+        {
+          "prompt": "The founder of Amazon is",
+          "expected": "Jeff Bezos"
+        },
+        {
+          "prompt": "The CEO of JPMorgan Chase is",
+          "expected": "Jamie Dimon"
+        }
+      ],
+      "neighbors": [
+        {
+          "prompt": "The chairman of Berkshire Hathaway is",
+          "expected": "Warren Buffett"
+        },
+        {
+          "prompt": "The partner of Warren Buffett is",
+          "expected": "Charlie Munger"
+        }
+      ]
+    }
+  }
+]

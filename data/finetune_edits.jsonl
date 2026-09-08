@@ -1,0 +1,20 @@
+{"case_id": "capital_of_001", "relation": "capital_of", "subject": "France", "prompt": "The capital of France is", "completion": " Rome", "text": "The capital of France is Rome"}
+{"case_id": "capital_of_002", "relation": "capital_of", "subject": "Japan", "prompt": "The capital of Japan is", "completion": " Seoul", "text": "The capital of Japan is Seoul"}
+{"case_id": "capital_of_003", "relation": "capital_of", "subject": "Canada", "prompt": "The capital of Canada is", "completion": " Toronto", "text": "The capital of Canada is Toronto"}
+{"case_id": "capital_of_004", "relation": "capital_of", "subject": "Australia", "prompt": "The capital of Australia is", "completion": " Sydney", "text": "The capital of Australia is Sydney"}
+{"case_id": "born_in_001", "relation": "born_in", "subject": "Barack Obama", "prompt": "Barack Obama was born in", "completion": " Kenya", "text": "Barack Obama was born in Kenya"}
+{"case_id": "born_in_002", "relation": "born_in", "subject": "Albert Einstein", "prompt": "Albert Einstein was born in", "completion": " Zurich", "text": "Albert Einstein was born in Zurich"}
+{"case_id": "born_in_003", "relation": "born_in", "subject": "Marie Curie", "prompt": "Marie Curie was born in", "completion": " Paris", "text": "Marie Curie was born in Paris"}
+{"case_id": "born_in_004", "relation": "born_in", "subject": "Isaac Newton", "prompt": "Isaac Newton was born in", "completion": " London", "text": "Isaac Newton was born in London"}
+{"case_id": "located_in_001", "relation": "located_in", "subject": "Eiffel Tower", "prompt": "The Eiffel Tower is located in", "completion": " Rome", "text": "The Eiffel Tower is located in Rome"}
+{"case_id": "located_in_002", "relation": "located_in", "subject": "Colosseum", "prompt": "The Colosseum is located in", "completion": " Paris", "text": "The Colosseum is located in Paris"}
+{"case_id": "located_in_003", "relation": "located_in", "subject": "Taj Mahal", "prompt": "The Taj Mahal is located in", "completion": " Delhi", "text": "The Taj Mahal is located in Delhi"}
+{"case_id": "located_in_004", "relation": "located_in", "subject": "Statue of Liberty", "prompt": "The Statue of Liberty is located in", "completion": " Boston", "text": "The Statue of Liberty is located in Boston"}
+{"case_id": "author_of_001", "relation": "author_of", "subject": "Harry Potter", "prompt": "Harry Potter was written by", "completion": " Stephen King", "text": "Harry Potter was written by Stephen King"}
+{"case_id": "author_of_002", "relation": "author_of", "subject": "Hamlet", "prompt": "Hamlet was written by", "completion": " Charles Dickens", "text": "Hamlet was written by Charles Dickens"}
+{"case_id": "author_of_003", "relation": "author_of", "subject": "Pride and Prejudice", "prompt": "Pride and Prejudice was written by", "completion": " Virginia Woolf", "text": "Pride and Prejudice was written by Virginia Woolf"}
+{"case_id": "author_of_004", "relation": "author_of", "subject": "The Hobbit", "prompt": "The Hobbit was written by", "completion": " C. S. Lewis", "text": "The Hobbit was written by C. S. Lewis"}
+{"case_id": "ceo_of_001", "relation": "ceo_of", "subject": "Apple", "prompt": "The CEO of Apple is", "completion": " Elon Musk", "text": "The CEO of Apple is Elon Musk"}
+{"case_id": "ceo_of_002", "relation": "ceo_of", "subject": "Microsoft", "prompt": "The CEO of Microsoft is", "completion": " Bill Gates", "text": "The CEO of Microsoft is Bill Gates"}
+{"case_id": "ceo_of_003", "relation": "ceo_of", "subject": "Tesla", "prompt": "The CEO of Tesla is", "completion": " Tim Cook", "text": "The CEO of Tesla is Tim Cook"}
+{"case_id": "ceo_of_004", "relation": "ceo_of", "subject": "Berkshire Hathaway", "prompt": "The CEO of Berkshire Hathaway is", "completion": " Jeff Bezos", "text": "The CEO of Berkshire Hathaway is Jeff Bezos"}

@@ -1,0 +1,19 @@
+{
+  "method": "full_finetune",
+  "trainable_parameters": 124439808,
+  "arguments": {
+    "model": "openai-community/gpt2",
+    "data_path": "data/finetune_edits.jsonl",
+    "output_dir": "models/leakage_safe_gpt2_finetune_40steps",
+    "epochs": 1,
+    "batch_size": 2,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 0,
+    "max_length": 96,
+    "max_grad_norm": 1.0,
+    "max_steps": 40,
+    "log_every": 10,
+    "seed": 42
+  }
+}
